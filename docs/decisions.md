@@ -1,0 +1,3 @@
+- Use Python for the backend while prototyping. Could move to C++ later if there are performance benefits.
+- Start with USB serial communication. Could support Wi-Fi later.
+- Start with simulated scan data while waiting for hardware.

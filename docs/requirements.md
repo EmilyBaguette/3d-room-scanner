@@ -1,0 +1,7 @@
+- Measure interior surfaces for personal DIY.
+- Capture a 5 m² area at 5 mm sampling pitch in under 8 hours
+- Positional accuracy of 3d points +/-1mm at 2m distance (a statistical limit is fine)
+- Keep the hardware affordable, ideally under £500.
+- Generate file type that can be imported into Siemens Design Centre (Nx).
+- Scan a 5m^2 area in <8hour at 5mm pitch.
+- Easy to use
