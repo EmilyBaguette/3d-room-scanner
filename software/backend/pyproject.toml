@@ -1,0 +1,49 @@
+[project]
+name = "scanner"
+version = "0.1.0"
+description = "Python backend for a DIY 3D room scanner"
+readme = "README.md"
+authors = [
+    { name = "EmilyBaguette" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.14.1",
+]
+
+[project.scripts]
+scanner = "scanner:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.40.2",
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]
+
+[tool.ruff.lint]
+select = [
+    "E4",
+    "E7",
+    "E9",
+    "F",
+    "I",
+    "B",
+    "UP",
+    "SIM",
+    "C4",
+    "PIE",
+    "RET",
+    "RUF",
+    "PTH",
+    "PT",
+    "ANN",
+    "ASYNC",
+]
+
+[tool.basedpyright]
+typeCheckingMode = "strict"
