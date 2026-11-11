@@ -47,3 +47,5 @@ select = [
 
 [tool.basedpyright]
 typeCheckingMode = "strict"
+venvPath = "."
+venv = ".venv"
