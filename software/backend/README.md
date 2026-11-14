@@ -24,5 +24,5 @@ uv sync
 Run the simulated alcove scan with:
 
 ```bash
-uv run simulate-scan
+uv run simulate-scan scan.csv
 ```

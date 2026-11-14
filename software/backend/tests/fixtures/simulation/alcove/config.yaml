@@ -1,0 +1,17 @@
+source: simulation
+scene: alcove
+
+origin_mm:
+  x: 0
+  y: 0
+  z: 1000
+
+yaw_deg:
+  min: -45
+  max: 45
+  step: 1
+
+pitch_deg:
+  min: -30
+  max: 30
+  step: 1
