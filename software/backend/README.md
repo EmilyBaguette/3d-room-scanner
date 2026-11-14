@@ -18,3 +18,11 @@ uv sync
 | Lint       | `uv run ruff check .`  |
 | Format     | `uv run ruff format .` |
 | Type check | `uv run basedpyright`  |
+
+## Simulation
+
+Run the simulated alcove scan with:
+
+```bash
+uv run simulate-scan
+```
