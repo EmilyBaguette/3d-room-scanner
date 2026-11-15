@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from scanner.simulation.cli import (
+from scanner.cli.simulate_scan import (
     DEFAULT_PITCH_MAX,
     DEFAULT_PITCH_MIN,
     DEFAULT_YAW_MAX,

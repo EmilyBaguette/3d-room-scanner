@@ -26,3 +26,12 @@ Run the simulated alcove scan with:
 ```bash
 uv run simulate-scan scan.csv
 ```
+
+Export a measurement CSV as comma-delimited XYZ points for Siemens NX:
+
+```bash
+uv run export-nx-points scan.csv scan_points_mm.txt
+```
+
+In NX, import the resulting file with **File → Import → Points from File** and
+use millimetres as the part units.
